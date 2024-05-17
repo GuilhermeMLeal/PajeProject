@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">PajeApp</string>
+    <string name="logo_financeApp">FinanceApp</string>
+    <string name="arrow">Arrow</string>
+    <string name="title_categories">Categorias</string>
+    <string name="create_category">Criar nova categoria</string>
 </resources>
