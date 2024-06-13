@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5F5F5"
+    android:background="@drawable/rounded_bg"
     android:orientation="vertical">
 
     <ImageView
@@ -23,7 +23,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="15dp"
         android:layout_marginBottom="10dp"
-        android:background="@drawable/rounded_bg"
+        android:background="@color/white"
         android:orientation="vertical"
         android:padding="16dp">
 
@@ -294,11 +294,9 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="15dp"
         android:layout_marginBottom="10dp"
-        android:background="@drawable/rounded_bg"
+        android:background="@color/white"
         android:orientation="horizontal"
         android:padding="16dp">
-
-        <!-- Aqui você pode usar uma ImageView para exibir o gráfico de pizza, ou utilizar uma biblioteca para gráficos -->
 
         <ImageView
             android:id="@+id/ivPieChart"
@@ -459,7 +457,7 @@
         android:layout_marginBottom="10dp"
         android:layout_marginEnd="15dp"
         android:orientation="vertical"
-        android:background="@drawable/rounded_bg"
+        android:background="@color/white"
         android:padding="16dp">
 
         <TextView
