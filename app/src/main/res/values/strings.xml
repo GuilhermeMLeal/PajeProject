@@ -24,4 +24,7 @@
     <string name="despesas">Receita/Despesa</string>
     <string name="mes">Maio</string>
     <string name="saldo">Saldo</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="quinta">Quinta feira,02</string>
+    <string name="quinta1">Quinta feira,01</string>
 </resources>
