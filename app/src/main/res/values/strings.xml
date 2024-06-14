@@ -1,3 +1,33 @@
 <resources>
     <string name="app_name">PajeApp</string>
+    <string name="logo_financeApp">FinanceApp</string>
+    <string name="arrow">Arrow</string>
+    <string name="title_categories">Categorias</string>
+    <string name="title_history">Histórico</string>
+    <string name="title_register">Registrar</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="create_category">Criar nova categoria</string>
+    <string name="despesas_por_categoria">Despesas por categoria</string>
+    <string name="food_category">Alimentação</string>
+    <string name="home_category">Moradia</string>
+    <string name="leisure_category">Lazer</string>
+    <string name="transport_category">Transporte</string>
+    <string name="name_register_category">Nome</string>
+    <string name="description_register_category">Descrição</string>
+    <string name="budget_register_category">Orçamento</string>
+    <string name="color_register_category">Cor</string>
+    <string name="register_category">Registrar</string>
+    <string name="category">Categoria</string>
+    <string name="categories">Categorias</string>
+    <string name="value">Valor</string>
+    <string name="value_of_account">R$0,00</string>
+    <string name="value_of_account_user">R$3.500,00</string>
+    <string name="positive_value">+R$3.500,00</string>
+    <string name="negative_value">-R$20,00</string>
+    <string name="despesas">Receita/Despesa</string>
+    <string name="mes">Maio</string>
+    <string name="saldo">Saldo</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="quinta">Quinta feira,02</string>
+    <string name="quinta1">Quinta feira,01</string>
 </resources>

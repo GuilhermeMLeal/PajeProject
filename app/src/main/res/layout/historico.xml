@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3C87ED"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/value"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/categories"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/value" />
+
+
+    <TextView
+        android:id="@+id/value"
+        android:layout_width="239dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="80dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/title_history"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="54dp"
+        android:layout_height="37dp"
+        android:background="#3C87ED"
+        android:contentDescription="@string/arrow"
+        android:tint="#FFFFFF"
+        app:srcCompat="?android:attr/actionModeCloseDrawable"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="410dp"
+        android:layout_height="565dp"
+        android:layout_marginTop="202dp"
+        app:cardCornerRadius="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <?xml version="1.0" encoding="utf-8"?>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/spotify_logo"
+                android:layout_width="35dp"
+                android:layout_height="43dp"
+                android:src="@drawable/devendo"
+                tools:layout_editor_absoluteX="42dp"
+                tools:layout_editor_absoluteY="79dp" />
+
+            <ImageView
+                android:id="@+id/spotify_logo"
+                android:layout_width="35dp"
+                android:layout_height="43dp"
+                android:src="@drawable/devendo"
+                tools:layout_editor_absoluteX="42dp"
+                tools:layout_editor_absoluteY="279dp" />
+
+            <TextView
+                android:id="@+id/spotify_text_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cajuzada"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="102dp"
+                tools:layout_editor_absoluteY="158dp" />
+
+            <TextView
+                android:id="@+id/spotify_text_bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:text="11:47"
+                app:layout_constraintStart_toStartOf="@id/spotify_logo"
+                tools:layout_editor_absoluteY="103dp" />
+
+            <TextView
+                android:id="@+id/spotify_text_bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10:17"
+                tools:layout_editor_absoluteX="102dp"
+                tools:layout_editor_absoluteY="303dp" />
+
+            <TextView
+                android:id="@+id/spotify_text_bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="08:99"
+                tools:layout_editor_absoluteX="102dp"
+                tools:layout_editor_absoluteY="377dp" />
+
+            <ImageView
+                android:id="@+id/spotify_logo"
+                android:layout_width="35dp"
+                android:layout_height="43dp"
+                android:src="@drawable/ganhando"
+                tools:layout_editor_absoluteX="42dp"
+                tools:layout_editor_absoluteY="161dp" />
+
+            <ImageView
+                android:id="@+id/spotify_logo"
+                android:layout_width="35dp"
+                android:layout_height="43dp"
+                android:src="@drawable/ganhando"
+                tools:layout_editor_absoluteX="42dp"
+                tools:layout_editor_absoluteY="353dp" />
+
+            <TextView
+                android:id="@+id/spotify_text_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spotify"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="102dp"
+                tools:layout_editor_absoluteY="79dp" />
+
+
+            <TextView
+                android:id="@+id/spotify_text_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Academia"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="102dp"
+                tools:layout_editor_absoluteY="279dp" />
+
+            <TextView
+                android:id="@+id/spotify_text_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Salario"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="102dp"
+                tools:layout_editor_absoluteY="353dp" />
+
+            <TextView
+                android:id="@+id/spotify_text_bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="06:99"
+                tools:layout_editor_absoluteX="102dp"
+                tools:layout_editor_absoluteY="188dp" />
+
+            <TextView
+                android:id="@+id/spotify_text_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+R$616,00"
+                android:textColor="@color/green"
+                tools:layout_editor_absoluteX="270dp"
+                tools:layout_editor_absoluteY="166dp" />
+
+            <TextView
+                android:id="@+id/spotify_text_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+R$320,00"
+                android:textColor="@color/green"
+                tools:layout_editor_absoluteX="270dp"
+                tools:layout_editor_absoluteY="358dp" />
+
+            <TextView
+                android:id="@+id/spotify_text_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-R$99,00"
+                android:textColor="@color/red"
+                tools:layout_editor_absoluteX="270dp"
+                tools:layout_editor_absoluteY="284dp" />
+
+            <TextView
+                android:id="@+id/spotify_text_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/negative_value"
+                android:textColor="@color/red"
+                tools:layout_editor_absoluteX="270dp"
+                tools:layout_editor_absoluteY="87dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/quinta"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="60dp"
+                tools:layout_editor_absoluteY="34dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/quinta"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="60dp"
+                tools:layout_editor_absoluteY="231dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/quinta"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="60dp"
+                tools:layout_editor_absoluteY="433dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="41dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="160dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/color8" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/food_category"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/color10" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/transport_category"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="49dp"
+            android:layout_height="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/color1" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingEnd="20sp"
+            android:text="@string/home_category"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/color11" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/leisure_category"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="409dp"
+        android:layout_height="48dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="80dp">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="7dp"
+            app:srcCompat="@drawable/kit" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:text="Saldo Atual"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="20dp"
+            android:text="R$3.500,00"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="230dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/setas" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="270dp"
+            android:text="Balanço Geral"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="270dp"
+            android:layout_marginTop="20dp"
+            android:text="R$712,00"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

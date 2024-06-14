@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3C87ED"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/value_of_account"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/value" />
+
+    <TextView
+        android:id="@+id/value"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/value"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/value" />
+
+
+    <TextView
+        android:id="@+id/value"
+        android:layout_width="239dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="80dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/register_category"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="54dp"
+        android:layout_height="37dp"
+        android:background="#3C87ED"
+        android:contentDescription="@string/arrow"
+        android:tint="#FFFFFF"
+        app:srcCompat="?android:attr/actionModeCloseDrawable"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="410dp"
+        android:layout_height="565dp"
+        android:layout_marginTop="202dp"
+        app:cardCornerRadius="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="374dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/borda_azul"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/name_register"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/name" />
+
+            <TextView
+                android:id="@+id/edit_name_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_toEndOf="@id/name_register"
+                android:hint="@string/name_register_category"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="374dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/borda_azul"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/iconImage"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/grupo" />
+
+            <TextView
+                android:id="@+id/editTextName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/iconImage"
+                android:hint="@string/description_register_category"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="374dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/borda_azul"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/iconImage"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/category" />
+
+            <TextView
+                android:id="@+id/editTextName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@id/arrastaBaixoImage"
+                android:layout_toEndOf="@id/iconImage"
+                android:layout_weight="1"
+                android:hint="@string/category"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/arrastaBaixoImage"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/arrastaBaixo" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="374dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="350dp"
+            android:background="@drawable/borda_azul"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/iconImage"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/money" />
+
+            <TextView
+                android:id="@+id/editTextName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@id/arrastaBaixoImage"
+                android:layout_toEndOf="@id/iconImage"
+                android:layout_weight="1"
+                android:hint="@string/despesas"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/arrastaBaixoImage"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/arrastaBaixo" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="82dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="163dp"
+            android:layout_marginTop="440dp"
+            android:background="@drawable/add" />
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
