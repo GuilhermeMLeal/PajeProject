@@ -18,9 +18,12 @@
     <string name="color_register_category">Cor</string>
     <string name="register_category">Registrar</string>
     <string name="category">Categoria</string>
+    <string name="categories">Categorias</string>
     <string name="value">Valor</string>
     <string name="value_of_account">R$0,00</string>
     <string name="value_of_account_user">R$3.500,00</string>
+    <string name="positive_value">+R$3.500,00</string>
+    <string name="negative_value">-R$20,00</string>
     <string name="despesas">Receita/Despesa</string>
     <string name="mes">Maio</string>
     <string name="saldo">Saldo</string>
