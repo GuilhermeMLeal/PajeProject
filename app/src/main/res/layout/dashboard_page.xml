@@ -68,7 +68,7 @@
                 android:contentDescription="@string/category"
                 android:src="@drawable/Grafico" />
 
-            <Space
+            <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="0dp"/>
 
@@ -78,14 +78,20 @@
                 android:layout_marginTop="8dp"
                 android:orientation="vertical">
 
-                <!-- Alimentação -->
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="50dp"
+                    android:orientation="horizontal"
                     android:layout_marginBottom="4dp"
-                    android:orientation="horizontal">
-
+                    android:layout_marginStart="20dp">
+                    <ImageView
+                        android:id="@+id/alimentacao1"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="Histórico"
+                        android:src="@drawable/color8"
+                        android:layout_marginEnd="8dp"/>
                     <TextView
                         android:id="@+id/tvFoodLabel"
                         android:layout_width="0dp"
@@ -98,19 +104,25 @@
                         android:id="@+id/tvFoodExpense"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="end"
                         android:text="-R$ 420,00"
-                        android:textSize="16sp" />
+                        android:textSize="16sp"
+                        android:layout_gravity="end" />
                 </LinearLayout>
 
-                <!-- Moradia -->
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="50dp"
+                    android:orientation="horizontal"
                     android:layout_marginBottom="4dp"
-                    android:orientation="horizontal">
-
+                    android:layout_marginStart="20dp">
+                    <ImageView
+                        android:id="@+id/moradia1"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="Histórico"
+                        android:src="@drawable/color9"
+                        android:layout_marginEnd="8dp"/>
                     <TextView
                         android:id="@+id/tvHousingLabel"
                         android:layout_width="0dp"
@@ -123,19 +135,25 @@
                         android:id="@+id/tvHousingExpense"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="end"
                         android:text="-R$ 380,00"
-                        android:textSize="16sp" />
+                        android:textSize="16sp"
+                        android:layout_gravity="end" />
                 </LinearLayout>
 
-                <!-- Transporte -->
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="50dp"
+                    android:orientation="horizontal"
                     android:layout_marginBottom="4dp"
-                    android:orientation="horizontal">
-
+                    android:layout_marginStart="20dp">
+                    <ImageView
+                        android:id="@+id/transporte1"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="Histórico"
+                        android:src="@drawable/color10"
+                        android:layout_marginEnd="8dp"/>
                     <TextView
                         android:id="@+id/tvTransportLabel"
                         android:layout_width="0dp"
@@ -148,20 +166,26 @@
                         android:id="@+id/tvTransportExpense"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="end"
                         android:text="-R$ 270,00"
-                        android:textSize="16sp" />
+                        android:textSize="16sp"
+                        android:layout_gravity="end" />
                 </LinearLayout>
 
-                <!-- Lazer -->
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="50dp"
+                    android:orientation="horizontal"
                     android:layout_marginBottom="4dp"
-                    android:orientation="horizontal">
+                    android:layout_marginStart="20dp">
 
-
+                    <ImageView
+                        android:id="@+id/lazer1"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="Histórico"
+                        android:src="@drawable/color11"
+                        android:layout_marginEnd="8dp"/>
                     <TextView
                         android:id="@+id/tvLeisureLabel"
                         android:layout_width="0dp"
@@ -174,9 +198,9 @@
                         android:id="@+id/tvLeisureExpense"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="end"
                         android:text="-R$ 130,00"
-                        android:textSize="16sp" />
+                        android:textSize="16sp"
+                        android:layout_gravity="end" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
