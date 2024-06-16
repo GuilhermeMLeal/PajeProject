@@ -15,15 +15,15 @@ Este é um simples aplicativo de lista de despesas desenvolvido em Kotlin, que p
 ## Instalação
 ### Clone o repositório: 
 - Faça uma pasta
-´´´
+```
 mkdir android
 cd android
-´´´
+```
 - Clone o repositorório
-´´´
+```
 [git clone https://github.com/seu-usuario/lista-despesas.git
 ](https://github.com/GuilhermeMLeal/PajeProject.git)
-´´´
+```
 - Abra o projeto no Android Studio.
 
 - Execute o aplicativo em um dispositivo Android ou emulador.
